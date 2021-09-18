@@ -31,3 +31,25 @@ body {
   ); /* a(alpha) allows us to control the opacity of the object. */
   box-shadow:0 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
+
+ .quote-text {
+   font-size: 2.75rem; /* it stands for relative size compared to the rood element. */
+   /* 1 rem equals to 16 pixels */
+
+ }
+
+.long-quote {
+  /* we will dynamically turn this on or off in our javascript when it is needed. */
+  font-size: 2rem;
+}
+
+.fa-quote-left {
+  font-size: 4rem;
+}
+
+.quote-author {
+  margin-top:15px;
+  font-size: 2rem;
+  font-weight: 400; /* bold */
+  font-style: italic;
+}
